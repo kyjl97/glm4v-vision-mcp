@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "glm-4v-flash": {
+      "command": "node",
+      "args": ["server.js"],
+      "env": {
+        "ZHIPU_API_KEY": "${ZHIPU_API_KEY}"
+      },
+      "cwd": "${ZHIPU_MCP_DIR}"
+    }
+  }
+}

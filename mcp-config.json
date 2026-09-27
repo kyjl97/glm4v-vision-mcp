@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "glm-4v-flash": {
+      "command": "node",
+      "args": ["D:\\DeepSeek MCP\\server.js"],
+      "env": {
+        "ZHIPU_API_KEY": "${ZHIPU_API_KEY}"
+      },
+      "workingDirectory": "D:\\DeepSeek MCP"
+    }
+  }
+}
